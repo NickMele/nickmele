@@ -1,0 +1,60 @@
+html {
+	background: $background-body;
+    font-family: $main-font, sans-serif;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1em;
+}
+
+p {
+    line-height: 1.25em;
+}
+
+/* Row
+-------------------------------------------------------------------------- */
+.row,
+.row-full {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    zoom: 1;
+}
+
+.row {
+    max-width: 1000px;
+    width: 90%;
+}
+
+.row-full {
+    width: 100%;
+}
+
+.row:before,
+.row:after,
+.row-full:before,
+.row-full:after  {
+    display: table;
+    content: "";
+}
+
+.row:after,
+.row-full:after {
+    clear: both;
+}
+
+/* Icons
+-------------------------------------------------------------------------- */
+.icon {
+    vertical-align: top;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    font-family: $icons;
+    line-height: 1em;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    display: inline-block;
+}

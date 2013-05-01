@@ -12,19 +12,4 @@
 </head>
 <body>
 
-	<header>
-		<div class="row">
-			<div class="logo">
-				<a href="">Nick Mele</a>
-			</div>
-			<nav>
-				<ul>
-					<li class="nav-active"><a href="" data-icon="&#xe001;">Home</a></li>
-					<li><a href="" data-icon="&#xe004;">Portfolio</a></li>
-					<li><a href="" data-icon="&#xe005;">Connect</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-
 	<div class="main-content">
